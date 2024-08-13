@@ -29,7 +29,7 @@
 
 
 .primary-bg-color{
-    background-color: rgba(0, 0, 0, 0.874);
+    background-color: rgba(0, 0, 0, 0.858);
     
 }
 .trail-bg{
@@ -239,8 +239,46 @@
     font-weight: 400;
     text-align: center;
 }
-
 /* exersize section style end*/
+
+
+/* Run an Extra Mile section style start */
+
+.run-an-extra-mile-section{
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 38px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.087); 
+}
+.extra-mile-title{
+    color: white;
+}
+.extra-mile-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    padding: 18px 0;
+    margin-right: 120px;
+}
+.extra-mile-container{
+    padding: 41px 0;
+    padding-left: 54px;
+    
+}
+.join-btn{
+    padding: 16px 60px;
+}
+ .extra-mile-img  img{
+    width: 371px;
+    height: 250px;
+    border-radius: 18px;
+    margin: 25px 30px;
+}  
+/* Run an Extra Mile section style end */
+
 
 /* responsive media query */
 @media screen and (max-width: 576px){
@@ -307,5 +345,27 @@
         font-weight: 400;
         text-align: center;
     }
+   
+    /* Run an Extra Mile section style start */
+    .extra-mile-container{
+        padding: 41px 0;
+        padding-left: 30px;
+    }
+    .extra-mile-desc{
+        padding-right: 40px;
+    }
+    .join-btn{
+        padding: 10px 120px;
+    }
+    .run-an-extra-mile-section{
+        flex-direction: column;
+    }
+    .extra-mile-img  img{
+        width: 320px;
+        margin-top: 25px auto;
+    }  
+
+    /* Run an Extra Mile section style end  */
+    
 }
 
