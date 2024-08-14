@@ -119,13 +119,14 @@
         /* display: grid;
         grid-template-columns: repeat(2,1fr); */
         height: 580px;
+        border: 5px solid red;
         
 }
 
 .get-body-container{
     width: 520px;
     height: 440px;
-    /* border: 5px solid red; */
+      
 }
 .get-body-title{
     color: rgb(255, 255, 255);
@@ -187,11 +188,11 @@
     margin: 0 auto;
     text-align: center;
     width: 671px;
-    height: 120px;
+    height: 40px;  
 }
 .habit-title{
     color: rgb(255, 255, 255);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 900;
 }
 .habit-desc{
@@ -207,6 +208,7 @@
     max-width: 1060px;
     margin: 0 auto;
     margin-top: 38px;
+    padding-bottom: 38px;
     display: flex;
 }
 .img-section-1  img{
@@ -389,6 +391,7 @@ select{
     margin-top: 40px;
     font-size: 2rem;
     margin-bottom: 15px;
+    height: 70px;
 }
 /* met our section end */
 
@@ -416,10 +419,53 @@ img{
 .tainer-picture-rows{
     margin-top: 7px;  
 }
+/* meet our team tainer picture section end    */
 
-
-
-
+.footer-section{
+    margin-top: 40px;
+    
+}
+.footer-container-section{
+    max-width: 1060px;
+    margin: 0 auto;
+    
+}
+.footer-container-fitness{
+    margin: 18px auto;
+}
+.fitness-title{
+    color: orangered;
+    /* color: rgb(230, 83, 60); */
+   font-size: 2.5rem;
+   font-style: italic;
+   margin-bottom: 22px;
+}
+.get-started-title{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 17px;
+}
+.desc{
+    color: rgba(255, 255, 255, 0.356);
+    font-size: 0.8rem;
+    margin: 9px auto;
+}
+.footer-container-fitness{
+    display: grid;
+    grid-template-columns: 500px 350px 200px;
+}
+hr {
+    border: none;           
+    height: 3px;           
+    background-color: rgba(255, 255, 255, 0.121); 
+    margin: 20px auto;      
+}
+.footer{
+    color: rgba(255, 255, 255, 0.39);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px 8px;
+}
 
 
 /* responsive media query */
@@ -458,8 +504,9 @@ img{
      .habit-section{
         text-align: center;
         width: 371px;
-        height: 120px;
+        height: 90px;
     }
+    
      .habit-title{
         color: rgb(255, 255, 255);
         font-size: 2rem;
@@ -549,6 +596,7 @@ img{
         padding-bottom: 15px;
     }
    
+/* meet our team section start*/
     .tainer-picture-container{
         height: 904px;
         border: 5px solod red;  
@@ -559,7 +607,23 @@ img{
     .tainer-picture-rows{
         margin-top: 30px;  
     }
-    
+/* meet our team section end*/  
+   .footer-container-fitness{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 
+  .fitness-title{
+    padding-left: 16px;
+  }
+  .bmi-desc{
+    padding-left: 16px;
+  }
+  .get-started-title{
+    padding-left: 16px;
+  }
+  .desc{
+    padding-left: 16px;
+  }
 }
 
